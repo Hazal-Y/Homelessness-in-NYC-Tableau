@@ -2,110 +2,73 @@
 
 ### Tableau Project: [Click Here](https://public.tableau.com/shared/RFD3SQKKY?:display_count=n&:origin=viz_share_link)
 
-
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
-
-
 ## Objectives
 
-#### Purpose: 
- - Realtor Inc. is looking for fluctuations in New York City real estate and their causes between 2012 and 2017 in order to forecast market KPIs for the 2018 timeframe. 
+- To analyze the The Annual Homeless Assessment Report to Congress (AHAR), published by the U.S. Department of Housing and Development (HUD). 
 
-#### Questions: 
- - Identifying and assessing any changes in the number of listings, housing prices, and so on. 
- - Determining the causes of each variation. 
- - Forecasting market KPIs for the period 2018. 
- - Making recommendations based on the findings. 
+- The Report outlines findings from the Point-in-Time (PIT) count, which surveys the number of people experiencing homelessness on a single night every January.
 
-## Assumptions
+- The goal is to provide an overview of the trends in the homeless population in NYC shelters and the demographic information from 2016 to 2020.
 
-- The dataset contains 974,066 records of the United States Real Estate market data between 2012 and 2017 (https://www.realtor.com/research/data/).
-- The dataset is from Realtor Inc.
-- Some of the data fileds of 2012 is Null as they are based on previous years data.
-- This project's forecasts are based on historical data. However, there are additional factors that might impact the future real estate market that are not considered in this analysis. 
+## Scenario
 
-## KPIs
+- A non-profit organization for the homeless people in New York wants to launch a new meal program for the New York City homeless shelters.
 
-- Median Listing Price: the listing price of the houses (because of several outliers in the listing prices, the median would be the best indicator) 
-- Inventory Supplied: number of houses available in the market 
-- Pending: number of houses not sold at the end of the period 
-- Total Sold: number of supplied minus number of pending 
-- Pending ratio: number of unsold houses in relation to total number of listings
-- Days on the market (DOM): the average number of days it took for a listing to sell 
-- Month-over-Month: the percentage change from the prior month 
-- Year-over-Year: the percentage change from the prior year on the same date 
+- In order to design an efficient plan, the management wants to see an overview of the US homeless population in the recent years with a focus on the homeless population that resides in New York City shelters.
 
-## Dashboard
+## Limitations
 
+- The major limitation of this analysis is a very fundamental one since there is no reliable nationwide homeless population counting system.
 
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
+- As per the NYC homeless population data, there are two main resources provided by the U.S. Department of Housing and Development (HUD) and NYC Department of Homeless Services (DHS). However these two datasets are not consistent.
 
-.
+- Both datasets are heavily criticised by being misleading and also underrepresenting the homeless population. It is estimated that the annual number of homeless individuals is 3 to 10 times greater what has been published.
 
-## The Overal Trends
+- This being the case, HUD data was used to conduct this analysis since it provides a nationwide dataset with greater figures than what is provided by the NYC reports.
+
+- The problem with the HUD data, however, is that it is gathered through a single night Point in Time (PiT) count conducted every January. Due to the nature of this count, sheltered homeless population data is more reliable and is therefore, the main focus of this analysis.
+
+- The analysis’ time frame is 2016-2020 and does not include 2021 due to COVID-19 related disruptions. It excludes 2022 as well, since it has not been released yet.
+
+- Lastly, the dataset is not an interconnected one, thus, does not allow for an in-depth analysis. Demographic figures are provided separate from each other without an intersection point.
 
 
-
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
-
-.
-
-## Median Price Trends
-
-
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
-.
-### Median Price Analysis:
-
-#### 2014:
-    - Inclement weather through much of the country in Spring 2014 depressed housing sales for the entire year.
-
-#### 2015:
-     Price Correction: 
-      - In late 2015, it became evident that the market was headed for a correction.
-     Buyer Caution: 
-      - Six years of gradually rising prices and a mounting backlog of unsold inventory
-      - Then the self-perpetuating cycle began; more inventory continued to come onto the market while absorption slowed, feeding inventory growth even more.
-      - Because 2016 was a presidential election year, buyers were even more cautious.
-      - The removal of the SALT (state and local taxes) deduction in 2016, which significantly impacted New Yorkers who pay some of the highest state and local taxes in the country.
-#### 2018 Forecast:
-       - The median New York home price has risen 14% from the previous year to over $2,300,000.
-      
-      
-## Inventory Supplied Trends
+<a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"></a>
+<a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"></a>
+<a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"></a>
+<a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"></a>
+<a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"></a>
 
 
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
-.
-### Inventory Supplied Analysis:
+## Key Findings
 
-#### 2015:
-    Buyer Caution: 
-     - The self-perpetuating cycle began; more inventory continued to come onto the market while absorption slowed, feeding inventory growth even more.
-     - Because 2016 was a presidential election year, buyers were even more cautious.
-     - The removal of the SALT (state and local taxes) deduction in 2016, which significantly impacted New Yorkers who pay some of the highest state and local taxes in the country.
-#### 2018 Forecast:
-      - Although inventory suppkied in the New York housing market fell towards the end of 2017 as compared to the previous year, it is expected to rise by 23% by the end of 2018.
-            
-            
-## Inventory Pending Trends
+- California and New York account for more than 40 percent of all homeless people in the US.
+
+- D.C. has the highest population adjusted rate of homelessness with ~%5.
+
+- New York ranks second in number and third in adjusted rate. 
+
+- California ranks fourth after population differences are taken into account.
+
+- The distribution of female/male population in the NYC shelters is very close to being even.
+
+- Around 60% of the individuals who stay with their families are women.
+
+- People in families account for more than the 50% of the total sheltered population in NYC.
+
+- Almost all individuals under 18 years old in shelters are with their families, whereas only 20% on average of the sheltered people over 24 years old are without families.
+
+- Hispanic and Black population are disproportionately impacted by the homelessness. They make up the majority of the people in families in NYC shelters.
+
+- Hispanic population in NYC shelters has decreased over the years from 49% in 2016 to 37% in 2020, but still holding a significantly high ratio.
+
+- Black population is the most overrepresented among the sheltered NYC homeless population with a stable trend over the years. It accounts for ~13% of all people in the U.S., but 39% of all homeless population and 73% of the NYC homeless population in shelters.
 
 
-<a href="xx"><img align="left" width="auto" height="auto" src="xx"></a>
-.
-### Unsold Houses Analysis:
+## Resources
 
-#### 2015:
-    Buyer Caution: 
-      - The self-perpetuating cycle began; more inventory continued to come onto the market while absorption slowed, feeding inventory growth even more
-      - Because 2016 was a presidential election year, buyers were even more cautious.
-      - The removal of the SALT (state and local taxes) deduction in 2016, which significantly impacted New Yorkers who pay some of the highest state and local taxes in the country.
+United States Department of Housing and Urban     Development. 2020. "Point-in-Time Count and Housing Inventory Count." HUD Exchange. Retrieved December 18th, 2021.  https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
 
-### 2018 Forecast:
-    - Unsold inventory continues to increase by 55% in 2018.
-    - This might be due to the overpriced market price of houses in the previous year, i.e. 2017.
 
-# Key Findingd and Recommendation
-- Based on the facts and analysis of its prior 5 years, in 2018, the real estate market continues growing.
+US Census Bureau. "Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico: April 1, 2010 to July 1, 2020 (NST-EST2020-01)." Census.gov. Retrieved December 18th, 2021. https://www2.census.gov/programs-surveys/popest/tables/2010-2020/state/totals/nst-est2020.xlsx
 
-- The marketing department should focus on the states with highest growth in real estate, like Nevada, Utah and Florida.
