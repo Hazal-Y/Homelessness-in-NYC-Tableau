@@ -1,6 +1,7 @@
-# Homelessness in NYC Tableau Project
+# Homelessness in NYC, 2016-2020 - Tableau Project
 
 ### Tableau Project: [Click Here](https://public.tableau.com/shared/RFD3SQKKY?:display_count=n&:origin=viz_share_link)
+
 
 ## Objectives
 
@@ -9,12 +10,14 @@
 - The Report outlines findings from the Point-in-Time (PIT) count, which surveys the number of people experiencing homelessness on a single night every January.
 
 - The goal is to provide an overview of the trends in the homeless population in NYC shelters and the demographic information from 2016 to 2020.
+- 
 
 ## Scenario
 
 - A non-profit organization for the homeless people in New York wants to launch a new meal program for the New York City homeless shelters.
 
 - In order to design an efficient plan, the management wants to see an overview of the US homeless population in the recent years with a focus on the homeless population that resides in New York City shelters.
+
 
 ## Limitations
 
@@ -34,10 +37,15 @@
 
 
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"></a>
+
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"></a>
+
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"></a>
+
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"></a>
+
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"></a>
+
 
 
 ## Key Findings
