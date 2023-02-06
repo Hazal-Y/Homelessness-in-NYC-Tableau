@@ -10,7 +10,7 @@
 - The Report outlines findings from the Point-in-Time (PIT) count, which surveys the number of people experiencing homelessness on a single night every January.
 
 - The goal is to provide an overview of the trends in the homeless population in NYC shelters and the demographic information from 2016 to 2020.
-- 
+
 
 ## Scenario
 
@@ -36,14 +36,15 @@
 - Lastly, the dataset is not an interconnected one, thus, does not allow for an in-depth analysis. Demographic figures are provided separate from each other without an intersection point.
 
 
+
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-1.png"></a>
-
+.
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-2.png"></a>
-
+.
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-3.png"></a>
-
+.
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-4.png"></a>
-
+.
 <a href="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"><img align="left" width="auto" height="auto" src="https://github.com/Hazal-Y/Homelessness-in-NYC-Tableau-Project/blob/main/P-5.png"></a>
 
 
